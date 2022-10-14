@@ -65,7 +65,7 @@ echo -e "\n\033[1;36mChecking ... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 echo "apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Dark; chmod 777 Dark; ./Dark" > /bin/darkssh && chmod +x /bin/darkssh > /dev/null 2>&1
-wget -O /bin/menuV1 https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Modulos/menuV1 > /dev/null 2>&1; chmod +x /bin/menuV1
+wget -O /bin/menuV1 https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Install/menuV1 > /dev/null 2>&1; chmod +x /bin/menuV1
 wget -O /bin/menuV2 https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Install/menuV2 > /dev/null 2>&1; chmod +x /bin/menuV2
 wget -O /bin/menuV3 https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Install/menuV3 > /dev/null 2>&1; chmod +x /bin/menuV3
 wget -O /bin/menuV4 https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Install/menuV4 > /dev/null 2>&1; chmod +x /bin/menuV4
