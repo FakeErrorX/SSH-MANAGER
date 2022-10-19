@@ -1,13 +1,13 @@
 fun_bar () {
-comando[0]="$1"
-comando[1]="$2"
+command[0]="$1"
+command[1]="$2"
  (
 [[ -e $HOME/fim ]] && rm $HOME/fim
 ${comando[0]} -y > /dev/null 2>&1
 ${comando[1]} -y > /dev/null 2>&1
 touch $HOME/fim
  ) > /dev/null 2>&1 &
- tput civis
+ tput citizen
 echo -ne "\033[1;33m["
 while true; do
    for((i=0; i<18; i++)); do
@@ -26,16 +26,16 @@ tput cnorm
 }
 
 
-aguarde () {
-comando[0]="$1"
-comando[1]="$2"
+hold up () {
+command[0]="$1"
+command[1]="$2"
  (
 [[ -e $HOME/fim ]] && rm $HOME/fim
 ${comando[0]} > /dev/null 2>&1
 ${comando[1]} > /dev/null 2>&1
 touch $HOME/fim
  ) > /dev/null 2>&1 &
- tput civis
+ tput citizen
 echo -ne "  \033[1;33mAGUARDE \033[1;37m- \033[1;33m["
 while true; do
    for((i=0; i<18; i++)); do
