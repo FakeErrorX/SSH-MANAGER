@@ -1,38 +1,34 @@
-# 📌 ErrorX SSH New Update v2.0 Now Release
+# 📌 ErrorX SSH MANAGER New Update v2.0
 
 * UPDATE 18/11/2022
 
- 
-
-# 📌ErrorX MANAGER
-
 * On This Update 
 
-*  ssl problem fixed 
+*  SSL Problem Fixed.
 
-*  Have Telegram ssh create bot
+*  Have Telegram SSH create Bot.
 
-*  Have ssh account banner name change
+*  Have ssh account banner name change.
 
-*  limiter problem fixed 
+*  Limiter problem fixed.
 
-*  new tab USER-LIMIT
+*  New tab USER-LIMIT.
 
-*  Telegram Bot RESELLER 
+*  Telegram Bot RESELLER.
 
-*  and more
+*  Manual ssh baner add command.
 
-*  manual ssh baner add command
+* Language English.
 
-* ENGLISH
+*  And more.
 
 -------------------------------------------------------------------------------
 
-## :book: Installation
+## :book: Installation.
 
  
 
-## 👾 ErrorX-Script-installer  👾
+## 👾 ErrorX-SSH-installer  👾
 
 [ErrorX](https://t.me/FakeErrorX)
 
@@ -88,20 +84,11 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/Fa
 
                  VPN has a pleasant interface that provides detailed information about the machine               
 
-                 And users ...
-
-                 
+                 And users ...    
 
                                                           
 
                    ErrorX                                                                                 2022
-
-<img align="right" src="https://github.com/FakeErrorX/SSH-MANAGER/blob/main/image/banner.jpg" width='300'/>
-
-  
-
-![logo](https://github.com/FakeErrorX/SSH-MANAGER/blob/main/image/outo.jpg)                 
-
          
 
 **Manager Script**
