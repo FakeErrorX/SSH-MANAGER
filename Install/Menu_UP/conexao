@@ -1,6 +1,6 @@
 #!/bin/bash
 #====================================================
-#	SCRIPT: CONEXAO DARKSSH MANAGER
+#	SCRIPT: ErrorX SSH MANAGER
 #	DESENVOLVIDO POR:	ErrorX
 #	DATA ATUALIZACAO:	28-04-2021 
 #	CONTATO TELEGRAM:	http://t.me/FakeErrorX
@@ -17,7 +17,7 @@
 		comando[1]="$2"
 		(
 			[[ -e $HOME/fim ]] && rm $HOME/fim
-			[[ ! -d /etc/DARKssh ]] && rm -rf /bin/menu
+			[[ ! -d /etc/errorxssh ]] && rm -rf /bin/menu
 			${comando[0]} >/dev/null 2>&1
 			${comando[1]} >/dev/null 2>&1
 			touch $HOME/fim
