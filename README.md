@@ -35,11 +35,11 @@
 
 
 
-# 📌DARKSSH new update v5.0.0 now
+# 📌 ErrorX SSH new update v2.0 now
 
 * UPDATE 06/04/2022
 
-* DarkSSH Panel+ 🌀 DarkSSH WEB🌀
+* ErrorX SSH Panel+ 🌀 ErrorX SSH WEB🌀
 
 * Darkssh + windows app
 
