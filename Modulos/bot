@@ -880,7 +880,7 @@ speed_test() {
     msg="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
     msg+="<b>🚀 SERVER SPEED 🚀</b>\n"
     msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
-    msg+="<b>PING/LATENCIA:</b>$png\n"
+    msg+="<b>PING/LATENCY:</b>$png\n"
     msg+="<b>DOWNLOAD:</b>$down\n"
     msg+="<b>UPLOAD:</b>$upl\n"
     ShellBot.sendMessage --chat_id $id_admin \
@@ -914,8 +914,8 @@ sobremim() {
     msg="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n"
     msg+="<b>🤖 BOT SSH-MANAGER 🤖</b>\n"
     msg+="=×=×=×=×=×=×=×=×=×=×=×=×=×=\n\n"
-    msg+="<b>Desenvolvido por:</b> @ErrorX_BD\n"
-    msg+="<b>support:</b> @FakeErrorX\n\n"
+    msg+="<b>OWNER:</b> @ErrorX_BD\n"
+    msg+="<b>DEVELOPER:</b> @FakeErrorX\n\n"
     msg+="I was created with the purpose of providing information and tools for VPN management on 🐧 GNU / Linux servidores servers.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
@@ -927,7 +927,7 @@ sobremim() {
 fun_add_teste() {
     if [[ "$(grep -wc ${callback_query_from_username} $suspensos)" != '0' ]]; then
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-            --text "⚠️ YOU ARE SUSPENDED! CONTACT THE ADMINISTRATOR"
+            --text "⚠️ YOU ARE SUSPENDED! CONTACT @FakeErrorX"
         return 0
     elif [[ "${callback_query_from_id[$id]}" == "$id_admin" ]]; then
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
@@ -962,7 +962,7 @@ fun_teste() {
     tuserdate=$(date '+%C%y/%m/%d' -d " +2 days")
     [[ -z $t_time ]] && {
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-            --text "$(echo -e "❌ error try again")" \
+            --text "$(echo -e "❌ Error try again")" \
             --parse_mode html
         return 0
         _erro='1'
@@ -1001,7 +1001,7 @@ fun_teste() {
         return 0
     } || {
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-            --text "$(echo -e "✅ <b>Successfully created</b> ✅\n\n♻️Paid Privet SSH ♻️\n\n🔥⚡️⚡️ ErrorX ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$usuario</code>\nᗚ Password • ๛ <code>1234</code>\n\n⏳ ᗚ Expire • $t_time $hrs")\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ErrorX SSH ◇═ [•]☬" \
+            --text "$(echo -e "✅ <b>Successfully created</b> ✅\n\n♻️ErrorX SSH ♻️\n\n🔥⚡️⚡️ ErrorX ⚡️⚡️🔥\n======================\n=❌NO SPAM\n=❌NO DDOS\n=❌NO HACKING\n=❌NO CARDING\n=❌NO TORRENT\n=❌NO OVER DOWNLOAD\n=❌NO MULTILOGIN\n=======================\n\n\nᗚ IP • ๛ $(cat /etc/IP)\nᗚ Username • ๛ <code>$usuario</code>\nᗚ Password • ๛ <code>1234</code>\n\n⏳ ᗚ Expire • $t_time $hrs")\n࿂ SSH •  22\n࿂ SSL •  443\n࿂ Squid  •  8080\n࿂ Dropbear •  80\n[-] ═───────◇───────═\n࿂ Badvpn •  7300\n [-] ═───────◇───────═\n›☬[•] SCRIPTS ═◇ ErrorX SSH ◇═ [•]☬" \
             --parse_mode html
         return 0
     }
