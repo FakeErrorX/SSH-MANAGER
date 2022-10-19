@@ -56,7 +56,7 @@ sudo -s
 
 ```
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Dark; chmod 777 Dark; ./Dark
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Dark; chmod 777 ErrorX; ./ErrorX
 
 ```
 
