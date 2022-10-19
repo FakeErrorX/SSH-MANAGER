@@ -277,4 +277,4 @@ apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/Fa
 
 [![License](https://www.gnu.org/graphics/gplv3-or-later.png)](LICENSE)
 
-**By: YouTech 🇱🇰 **
+**By: ErrorX 🇧🇩 **
