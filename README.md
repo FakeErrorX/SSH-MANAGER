@@ -24,8 +24,6 @@
 
 *  manual ssh baner add command
 
-# 🌐Language
-
 * ENGLISH
 
 -------------------------------------------------------------------------------
@@ -56,7 +54,7 @@ sudo -s
 
 ```
 
-apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/Dark; chmod 777 ErrorX; ./ErrorX
+apt-get update -y; apt-get upgrade -y; wget https://raw.githubusercontent.com/FakeErrorX/SSH-MANAGER/master/ErrorX; chmod 777 ErrorX; ./ErrorX
 
 ```
 
